@@ -23,7 +23,7 @@ export const AuthForm: React.FC<AuthFormProps> = ({ formType, onSubmit }) => {
             ? 'New to the app?'
             : 'Already have an account?'}{' '}
           <a
-            href={formType === 'login' ? '/register' : '/login'}
+            href={formType === 'login' ? '/auth/register' : '/auth/login'}
             className='text-red-500 hover:underline'
           >
             {formType === 'login' ? 'Register' : 'Login'}
