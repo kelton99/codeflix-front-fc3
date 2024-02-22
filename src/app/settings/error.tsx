@@ -3,9 +3,9 @@
 import { useEffect } from 'react';
 
 export default function error({ error, reset }: any) {
-  useEffect(() => {
+  /* useEffect(() => {
     console.log('logging error:', error);
-  }, [error]);
+  }, [error]);*/
 
   return (
     <div className='text-red-500'>
